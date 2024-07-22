@@ -1,0 +1,14 @@
+html body {
+    margin: 0;
+    padding: 0;
+    width: max-content;
+    margin-left: 6%;
+}
+
+.container {
+    width: 100%;
+}
+
+.container h2 {
+    text-align: center;
+}
