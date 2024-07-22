@@ -1,16 +1,23 @@
 # Crop Production data analysis
 ## React + TypeScript + Vite
 
-- This project provides analysis of various crop production data in `India` from 1950 to 2020.
+## Overview
+
+- This project provides analysis of various `crop production data in India` from 1950 to 2020.
 - Data is visualized in `table` format.
+
+
+### Features
+
 - we can see 2 tables
-  Table 1 : Maximum and Minimum crop production for each year between 1950 - 2020.
-  Table 2 : Average Yield and Average Cultivation area for each crop for all the years.
+
+  `Yearly crop production` : Maximum and Minimum crop production for each year between 1950 - 2020.
+  `Average statistics` : Average Yield and Average Cultivation area for each crop for all the years.
 
 ## Development Tools used :
 
 - `Vite` - It is a build tool for fast development, works seamlessly with `React`, `Vue`, `Svelte`.
-- React Refresh - for faster live re-loading during development.
+- `React Refresh` - for faster live re-loading during development.
 
 ## Libraries Used :
 
@@ -23,7 +30,7 @@
 
 
 
-=================================================================================================
+======================================================================================================================================================
 
 
 # Running the application :
@@ -53,12 +60,22 @@
 
 ![Image 2](/images//two.JPG)
 
+![Image 3](/images/three.JPG)
+
+![Image 4](/images/four.JPG)
+
+![Image 5](/images/five.JPG)
+
+![Image 5](/images/six.JPG)
+
+![Image 5](/images/seven.JPG)
+
 
 ## Table 2 :
 
-![Image 3](/images//three.JPG)
+![Image 3](/images//eight.JPG)
 
-![Image 4](/images/four.JPG)
+![Image 4](/images/nine.JPG)
 
 
 
