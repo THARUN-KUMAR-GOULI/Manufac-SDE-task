@@ -1,30 +1,69 @@
-# React + TypeScript + Vite
+# Crop Production data analysis
+## React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This project provides analysis of various crop production data in `India` from 1950 to 2020.
+- Data is visualized in `table` format.
+- we can see 2 tables
+  Table 1 : Maximum and Minimum crop production for each year between 1950 - 2020.
+  Table 2 : Average Yield and Average Cultivation area for each crop for all the years.
 
-Currently, two official plugins are available:
+## Development Tools used :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `Vite` - It is a build tool for fast development, works seamlessly with `React`, `Vue`, `Svelte`.
+- React Refresh - for faster live re-loading during development.
 
-## Expanding the ESLint configuration
+## Libraries Used :
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- `React.js` - for building UI(user interface).
+- `TypeScript` - It is superset of JavaScript, adding static types to it.
+- `Mantine`  - It is a react component library, provides huge range on components, hooks to build complex UIs.
+- `@mantine/core` - for core UI components.
+- `@mantine/hooks` - for custom hooks.
+- `@mantine/styles` - for styling components.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+=================================================================================================
+
+
+# Running the application :
+
+## Prerequisites :- ensure that these software installed on system.
+1. `Node.js`
+
+## steps to run
+
+`1. Clone the Repository` : using `git clone` command.
+
+`2. Navigate to project directory` : using `cd` command.
+
+`3. Install required dependencies` : use `Yarn` to install dependencies using `yarn install` command.
+    - This command reads `Package.json` file and install dependencies listed there.
+
+`4. Run the development server` : using `yarn dev` command, this will start Vite development server, and can see output running on browser.
+    - we can see `localhost URL`, using that also our application accessible in the browser.
+
+
+
+# Output Images 
+
+## Table 1 :
+
+![Image 1](/images/one.JPG)
+
+![Image 2](/images//two.JPG)
+
+
+## Table 2 :
+
+![Image 3](/images//three.JPG)
+
+![Image 4](/images/four.JPG)
+
+
+
+
+
+
+
+ 
